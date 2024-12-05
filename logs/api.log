@@ -1,0 +1,2 @@
+// Log API request details
+file_put_contents('../logs/api.log', date('Y-m-d H:i:s') . ' - ' . $_SERVER['REQUEST_URI'] . "\n", FILE_APPEND);
